@@ -120,9 +120,6 @@ public class InputEvaluator : MonoBehaviour
         CachedInputs.Clear();
     }
 
-
-
-
     void ScoreGem(FallingGem gem)
     {
         GameObject newParticles;
