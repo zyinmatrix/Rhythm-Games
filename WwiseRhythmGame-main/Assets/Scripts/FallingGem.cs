@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class FallingGem : MonoBehaviour
 {
@@ -32,6 +33,8 @@ public class FallingGem : MonoBehaviour
     //check whether is bomb
     public bool isBomb = false;
     
+    //store color
+    public Color gemColor;
 
     Vector3 startPosition;
     // Start is called before the first frame update

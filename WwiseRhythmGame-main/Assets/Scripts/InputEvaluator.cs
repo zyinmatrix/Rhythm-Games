@@ -35,7 +35,8 @@ public class InputEvaluator : MonoBehaviour
     public GameObject badParticles;
 
     //different colors for particles and feedback text;
-    public Color perfectColor, goodColor, okColor, missedColor, bombColor;
+    // public Color perfectColor, goodColor, okColor, missedColor;
+    public Color bombColor;
 
     public Text feedbackText;
     public Text scoreText;
@@ -127,7 +128,7 @@ public class InputEvaluator : MonoBehaviour
             if(gem.gemCueState != FallingGem.CueState.Late){
                 gameScore -= 2;
                 Debug.Log("Bomb!");
-                feedbackText.text = "You hit\na Bomb!";
+                feedbackText.text = "YOU HIT\na SPACESHIP!";
                 feedbackText.color = bombColor;
                 Destroy(gem.gameObject);
 
@@ -146,13 +147,15 @@ public class InputEvaluator : MonoBehaviour
                 gameScore += 1;
                 Debug.Log("OK!");
                 feedbackText.text = "Ok!";
-                feedbackText.color = okColor;
+                // feedbackText.color = okColor;
+                feedbackText.color = gem.gemColor;
                 Destroy(gem.gameObject);
 
                 //deploy particles
                 newParticles = Instantiate(goodParticles, gem.transform.position, Quaternion.identity);
                 var main = newParticles.GetComponent<ParticleSystem>().main;
-                main.startColor = okColor;
+                // main.startColor = okColor;
+                main.startColor = gem.gemColor;
                 Destroy(newParticles, 2f); 
 
                 break;
@@ -160,13 +163,15 @@ public class InputEvaluator : MonoBehaviour
                 gameScore += 2;
                 Debug.Log("Good!");
                 feedbackText.text = "Good!";
-                feedbackText.color = goodColor;
+                // feedbackText.color = goodColor;
+                feedbackText.color = gem.gemColor;
                 Destroy(gem.gameObject);
 
                 //deploy particles
                 newParticles = Instantiate(goodParticles, gem.transform.position, Quaternion.identity);
                 main = newParticles.GetComponent<ParticleSystem>().main;
-                main.startColor = goodColor;
+                // main.startColor = goodColor;
+                main.startColor = gem.gemColor;
                 Destroy(newParticles, 2f);
 
                 break;
@@ -174,19 +179,21 @@ public class InputEvaluator : MonoBehaviour
                 gameScore += 3;
                 Debug.Log("Perfect!");
                 feedbackText.text = "Perfect!";
-                feedbackText.color = perfectColor;
+                // feedbackText.color = perfectColor;
+                feedbackText.color = gem.gemColor;
                 Destroy(gem.gameObject);
 
                 newParticles = Instantiate(goodParticles, gem.transform.position, Quaternion.identity);
                 main = newParticles.GetComponent<ParticleSystem>().main;
-                main.startColor = perfectColor;
+                // main.startColor = perfectColor;
+                main.startColor = gem.gemColor;
                 Destroy(newParticles, 2f);
 
                 break;
             case FallingGem.CueState.Late:
-                feedbackText.text = "Missed!";
-                Debug.Log(gem.playerInput);
-                feedbackText.color = perfectColor;
+                // feedbackText.text = "Missed!";
+                // Debug.Log(gem.playerInput);
+                // feedbackText.color = perfectColor;
                 Debug.Log("Missed!");
 
                 newParticles = Instantiate(badParticles, gem.transform.position, Quaternion.identity);

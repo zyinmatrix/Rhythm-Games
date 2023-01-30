@@ -76,6 +76,7 @@ MonoBehaviour:
   crossPositionOffset: 0
   playerInput: 
   isBomb: 0
+  gemColor: {r: 1, g: 0.8627451, b: 0.33333334, a: 1}
 --- !u!135 &200917901213863211
 SphereCollider:
   m_ObjectHideFlags: 0

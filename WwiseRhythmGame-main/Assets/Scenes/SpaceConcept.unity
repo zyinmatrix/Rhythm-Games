@@ -159,7 +159,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -773, y: -56}
+  m_AnchoredPosition: {x: -1348, y: -152}
   m_SizeDelta: {x: 300, y: 300}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &140051564
@@ -10708,7 +10708,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 563127938}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -3.31}
+  m_LocalPosition: {x: 0, y: 0, z: -2.81}
   m_LocalScale: {x: 19.110289, y: 2.471, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -10727,6 +10727,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b2c896857aa3df4393a38aac95a33e5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  feedbackText: {fileID: 1986191727}
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
@@ -11753,7 +11754,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -115, y: -56}
+  m_AnchoredPosition: {x: -154, y: -152}
   m_SizeDelta: {x: 300, y: 300}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &2029971164
@@ -11904,11 +11905,7 @@ MonoBehaviour:
     type: 3}
   badParticles: {fileID: 1892363981611184004, guid: f59055c05fe0b944d9e4d0a5deb96961,
     type: 3}
-  perfectColor: {r: 0, g: 1, b: 0.06779671, a: 1}
-  goodColor: {r: 0, g: 0.8962264, b: 0.77719635, a: 1}
-  okColor: {r: 0.8773585, g: 0.5361635, b: 0, a: 1}
-  missedColor: {r: 0.8679245, g: 0, b: 0, a: 1}
-  bombColor: {r: 0.33962262, g: 0, b: 0.26447606, a: 1}
+  bombColor: {r: 1, g: 0.12720151, b: 0.023584902, a: 1}
   feedbackText: {fileID: 1986191727}
   scoreText: {fileID: 140051564}
 --- !u!4 &2073621976
