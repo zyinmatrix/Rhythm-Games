@@ -123,6 +123,7 @@ MonoBehaviour:
   destination: {x: 0, y: 0, z: 0}
   crossPositionOffset: 0
   playerInput: 
+  isBomb: 0
 --- !u!54 &-6279881597069713161
 Rigidbody:
   m_ObjectHideFlags: 0
