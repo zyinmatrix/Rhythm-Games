@@ -1233,22 +1233,22 @@ MonoBehaviour:
   fallingGemQ:
     playerInput: RhythmQ
     cueStartLocation: {fileID: 938599953}
-    cuePrefab: {fileID: 4151618747842854423, guid: ffbd54c7acfcab74d91b873b9b2c4f2a,
+    cuePrefab: {fileID: 2709116611139621033, guid: ad658dddc4dcf45da817c63f225d5d81,
       type: 3}
   fallingGemW:
     playerInput: RhythmW
     cueStartLocation: {fileID: 464838499}
-    cuePrefab: {fileID: 5037595431955545774, guid: ad2672390b03fd14584ccf3a1838fc48,
+    cuePrefab: {fileID: 2709116611139621033, guid: a6cdf924546054166bf992c96c4e3679,
       type: 3}
   fallingGemO:
     playerInput: RhythmO
     cueStartLocation: {fileID: 289311527}
-    cuePrefab: {fileID: 5483217214839925777, guid: 8fbce11d913830c4c880b83507eaf682,
+    cuePrefab: {fileID: 2709116611139621033, guid: a5d6b1124c721431ca66ecf213d05729,
       type: 3}
   fallingGemP:
     playerInput: RhythmP
     cueStartLocation: {fileID: 1577705857}
-    cuePrefab: {fileID: 4151618747842854423, guid: f7dc27469eaae364eb7e3ba6f824cf24,
+    cuePrefab: {fileID: 2709116611139621033, guid: 5485193cace8049229d153169c5aca8a,
       type: 3}
   fallingBombQ:
     playerInput: RhythmQ
@@ -1310,7 +1310,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 938599953}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -4, y: 0, z: 28.36}
+  m_LocalPosition: {x: -4.5, y: 0, z: 28.36}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1927,7 +1927,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1577705857}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 4, y: 0, z: 28.36}
+  m_LocalPosition: {x: 4.5, y: 0, z: 28.36}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
