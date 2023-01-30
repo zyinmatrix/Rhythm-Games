@@ -40,7 +40,13 @@ public class InputEvaluator : MonoBehaviour
 
     public Text feedbackText;
     public Text scoreText;
+    public Text warningText;
 
+    // public UnityEvent ScaleWarning;
+    private bool showingWarning = false;
+    private bool isLargeWarning = false;
+    private float warningTimer = 0.0f;
+    private float scaleTimer = 0.5f;
 
     void Update()
     {
@@ -108,17 +114,47 @@ public class InputEvaluator : MonoBehaviour
                     if (CachedInputs[j].inputString == activeGems[i].playerInput)
                     {
                         ScoreGem(activeGems[i]);
-                        scoreText.text = "Score:\n" + gameScore;
+                        scoreText.text = "Score:\n" + gameScore; //update score
                     }
                 }
             }
         }
-
-        //update score
+        
 
         //clear Lists
         activeGems.Clear();
         CachedInputs.Clear();
+    }
+
+    void FixedUpdate()
+    {
+         //check warning
+        if(showingWarning)
+        {
+            showingWarning = false;
+            warningTimer = 2;
+        }
+
+        if(warningTimer > 0)
+        {
+            warningText.text = "YOU HIT a SPACESHIP!";
+            warningText.color = bombColor;
+            warningTimer -= Time.deltaTime;
+        }
+        else
+        {
+            warningText.text = "";
+        }
+
+        scaleTimer -= Time.deltaTime;
+        if(scaleTimer <= 0)
+        {
+            isLargeWarning = !isLargeWarning;
+            scaleTimer = 0.3f;
+            if(isLargeWarning) warningText.fontSize = 40;
+            else warningText.fontSize = 30;
+        }
+        
     }
 
     void ScoreGem(FallingGem gem)
@@ -128,8 +164,9 @@ public class InputEvaluator : MonoBehaviour
             if(gem.gemCueState != FallingGem.CueState.Late){
                 gameScore -= 2;
                 Debug.Log("Bomb!");
-                feedbackText.text = "YOU HIT\na SPACESHIP!";
-                feedbackText.color = bombColor;
+                // feedbackText.text = "YOU HIT\na SPACESHIP!";
+                // feedbackText.color = bombColor;
+                showingWarning = true;
                 Destroy(gem.gameObject);
 
                 //deploy particles
