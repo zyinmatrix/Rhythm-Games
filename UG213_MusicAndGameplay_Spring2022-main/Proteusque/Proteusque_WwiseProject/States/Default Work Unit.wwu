@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{AD35A2D4-D27F-4CA8-A586-F1D37653AB2B}" SchemaVersion="103">
+	<States>
+		<WorkUnit Name="Default Work Unit" ID="{AD35A2D4-D27F-4CA8-A586-F1D37653AB2B}" PersistMode="Standalone">
+			<ChildrenList>
+				<StateGroup Name="Region" ID="{5CDB31AD-2841-4B33-B0A1-F778FA538AAE}">
+					<ChildrenList>
+						<State Name="None" ID="{07A40000-4028-4B51-B1FE-07D67350A62E}"/>
+						<State Name="Green" ID="{4F0CCC5F-3897-4C7B-B1F9-C016313DA5B8}"/>
+						<State Name="Magenta" ID="{3F88B34E-4FAE-412A-A527-8078BC26C379}"/>
+						<State Name="Purple" ID="{D46F03EA-FB71-4EBA-BA95-562A1CA682F5}"/>
+						<State Name="Ocean" ID="{95E93439-7A82-470D-8667-0BDE7F9EC923}"/>
+					</ChildrenList>
+				</StateGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</States>
+</WwiseDocument>

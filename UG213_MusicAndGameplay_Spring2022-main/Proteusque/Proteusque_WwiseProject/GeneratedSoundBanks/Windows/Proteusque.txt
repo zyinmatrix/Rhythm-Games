@@ -1,0 +1,53 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1917263390	StopMusic			\Default Work Unit\StopMusic	
+	2018227834	PlayTrigger1			\Default Work Unit\PlayTrigger1	
+	2383811509	PlayOceanTrigger			\Default Work Unit\PlayOceanTrigger	
+	3415295600	StartSpatialLoop1			\Default Work Unit\StartSpatialLoop1	
+	3415295602	StartSpatialLoop3			\Default Work Unit\StartSpatialLoop3	
+	3415295603	StartSpatialLoop2			\Default Work Unit\StartSpatialLoop2	
+	3827058668	StartMusic			\Default Work Unit\StartMusic	
+
+State Group	ID	Name			Wwise Object Path	Notes
+	1374134669	Region			\Default Work Unit\Region	
+
+State	ID	Name	State Group			Notes
+	748895195	None	Region			
+	3036078039	Purple	Region			
+	3802555985	Ocean	Region			
+	3987849186	Magenta	Region			
+	4147287986	Green	Region			
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	2243460727	PlayerHeight			\Default Work Unit\PlayerHeight	
+
+Modulator Envelope	ID	Name			Wwise Object Path	Notes
+	955110277	Modulator Envelope (Custom)				
+
+Trigger	ID	Name			Wwise Object Path	Notes
+	2252679871	OceanTrigger			\Default Work Unit\OceanTrigger	
+	4193390955	ProteusqueTrigger1			\Default Work Unit\ProteusqueTrigger1	
+
+Source plug-ins	ID	Name	Type		Wwise Object Path	Notes
+	258287902	Wwise Synth One	Wwise Synth One		\Actor-Mixer Hierarchy\Default Work Unit\Synth\Wwise Synth One	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	46683379	ProteusqueStems Area2Drums	D:\Teaching\Spring2022\2022Repo\Proteusque\Proteusque_WwiseProject\.cache\Windows\SFX\ProteusqueStems Area2Drums_9EDFC787.wem		\Interactive Music Hierarchy\Default Work Unit\BackgroundMusic\MagentaLand\MagentaMusic\ProteusqueStems Area2Drums		733689
+	55090083	DrumMIDI	D:\Teaching\Spring2022\2022Repo\Proteusque\Proteusque_WwiseProject\.cache\Windows\SFX\DrumMIDI_379067B7.wmid		\Interactive Music Hierarchy\Default Work Unit\BackgroundMusic\MagentaLand\MagentaMusic\DrumMIDI		58
+	226872478	ProteusqueStems Area3-1	D:\Teaching\Spring2022\2022Repo\Proteusque\Proteusque_WwiseProject\.cache\Windows\SFX\ProteusqueStems Area3-1_9EDFC787.wem		\Interactive Music Hierarchy\Default Work Unit\BackgroundMusic\PurpleLand\PurpleMusic\ProteusqueStems Area3-1		638753
+	302512911	DrumFragments	D:\Teaching\Spring2022\2022Repo\Proteusque\Proteusque_WwiseProject\.cache\Windows\SFX\ProteusqueStems Area1Drums_Fragment3_9EDFC787.wem		\Interactive Music Hierarchy\Default Work Unit\BackgroundMusic\GreenLand\GreenMusic\DrumFragments		147444
+	328500420	ProteusqueSpatialLoop3	D:\Teaching\Spring2022\2022Repo\Proteusque\Proteusque_WwiseProject\.cache\Windows\SFX\ProteusqueSpatialLoop3_9EDFC787.wem		\Actor-Mixer Hierarchy\Default Work Unit\ProteusqueSpatialLoop3		51103
+	410623099	ProteusqueStems Area1Melody	D:\Teaching\Spring2022\2022Repo\Proteusque\Proteusque_WwiseProject\.cache\Windows\SFX\ProteusqueStems Area1Melody_9EDFC787.wem		\Interactive Music Hierarchy\Default Work Unit\BackgroundMusic\GreenLand\GreenMusic\ProteusqueStems Area1Melody		594636
+	450207730	Snare	D:\Teaching\Spring2022\2022Repo\Proteusque\Proteusque_WwiseProject\.cache\Windows\SFX\Snare_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\DrumMachine\Snare		40612
+	451248812	ProteusqueSpatialLoop1	D:\Teaching\Spring2022\2022Repo\Proteusque\Proteusque_WwiseProject\.cache\Windows\SFX\ProteusqueSpatialLoop1_FE9A7B25.wem		\Actor-Mixer Hierarchy\Default Work Unit\ProteusqueSpatialLoop1		125899
+	454512753	DrumFragments	D:\Teaching\Spring2022\2022Repo\Proteusque\Proteusque_WwiseProject\.cache\Windows\SFX\ProteusqueStems Area1Drums_Fragment1_9EDFC787.wem		\Interactive Music Hierarchy\Default Work Unit\BackgroundMusic\GreenLand\GreenMusic\DrumFragments		141408
+	502943863	DrumFragments	D:\Teaching\Spring2022\2022Repo\Proteusque\Proteusque_WwiseProject\.cache\Windows\SFX\ProteusqueStems Area1Drums_Fragment2_9EDFC787.wem		\Interactive Music Hierarchy\Default Work Unit\BackgroundMusic\GreenLand\GreenMusic\DrumFragments		144456
+	516131857	ProteusqueStems Area2Harmony	D:\Teaching\Spring2022\2022Repo\Proteusque\Proteusque_WwiseProject\.cache\Windows\SFX\ProteusqueStems Area2Harmony_9EDFC787.wem		\Interactive Music Hierarchy\Default Work Unit\BackgroundMusic\MagentaLand\MagentaMusic\ProteusqueStems Area2Harmony		633807
+	635728387	Cym	D:\Teaching\Spring2022\2022Repo\Proteusque\Proteusque_WwiseProject\.cache\Windows\SFX\Cym_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\DrumMachine\Cym		352864
+	670101358	ProteusqueSpatialLoop2	D:\Teaching\Spring2022\2022Repo\Proteusque\Proteusque_WwiseProject\.cache\Windows\SFX\ProteusqueSpatialLoop2_9EDFC787.wem		\Actor-Mixer Hierarchy\Default Work Unit\ProteusqueSpatialLoop2		59028
+	740337913	OceanMusic	D:\Teaching\Spring2022\2022Repo\Proteusque\Proteusque_WwiseProject\.cache\Windows\SFX\OceanMusic_9EDFC787.wem		\Interactive Music Hierarchy\Default Work Unit\BackgroundMusic\OceanLand\OceanMusic\OceanMusic		87077
+	851501314	Area2BassMIDI	D:\Teaching\Spring2022\2022Repo\Proteusque\Proteusque_WwiseProject\.cache\Windows\SFX\Area2BassMIDI_AEF869C3.wmid		\Interactive Music Hierarchy\Default Work Unit\BackgroundMusic\MagentaLand\MagentaMusic\Area2BassMIDI		698
+	934498183	ProteusqueStinger1	D:\Teaching\Spring2022\2022Repo\Proteusque\Proteusque_WwiseProject\.cache\Windows\SFX\ProteusqueStinger1_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Stinger1\ProteusqueStinger1		1517964
+	949749248	ProteusqueStems Area2Melody	D:\Teaching\Spring2022\2022Repo\Proteusque\Proteusque_WwiseProject\.cache\Windows\SFX\ProteusqueStems Area2Melody_9EDFC787.wem		\Interactive Music Hierarchy\Default Work Unit\BackgroundMusic\MagentaLand\MagentaMusic\ProteusqueStems Area2Melody		698719
+	967933788	ProteusqueStems Area1Harmony	D:\Teaching\Spring2022\2022Repo\Proteusque\Proteusque_WwiseProject\.cache\Windows\SFX\ProteusqueStems Area1Harmony_9EDFC787.wem		\Interactive Music Hierarchy\Default Work Unit\BackgroundMusic\GreenLand\GreenMusic\ProteusqueStems Area1Harmony		824502
+	1052839573	Kick	D:\Teaching\Spring2022\2022Repo\Proteusque\Proteusque_WwiseProject\.cache\Windows\SFX\Kick_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\DrumMachine\Kick		190464
+

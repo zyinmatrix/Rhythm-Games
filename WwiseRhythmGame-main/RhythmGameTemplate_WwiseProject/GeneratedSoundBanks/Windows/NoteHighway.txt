@@ -1,0 +1,18 @@
+Event	ID	Name			Wwise Object Path	Notes
+	278064396	PosFeedback			\Default Work Unit\PosFeedback	
+	377537405	PlayNoteHighwayMusic			\Default Work Unit\PlayNoteHighwayMusic	
+	1658084028	NegFeedback			\Default Work Unit\NegFeedback	
+	3188186427	StopNoteHighwayMusic			\Default Work Unit\StopNoteHighwayMusic	
+
+Source plug-ins	ID	Name	Type		Wwise Object Path	Notes
+	509367424	Wwise Silence	Wwise Silence		\Actor-Mixer Hierarchy\Default Work Unit\silence\Wwise Silence	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	280786844	PosFeedback3	Y:\Downloads\git\zyinmatrix\Rhythm Games\WwiseRhythmGame-main\RhythmGameTemplate_WwiseProject\.cache\Windows\SFX\PosFeedback3_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\PosFeedback\PosFeedback3		286060
+	298613979	PosFeedback4	Y:\Downloads\git\zyinmatrix\Rhythm Games\WwiseRhythmGame-main\RhythmGameTemplate_WwiseProject\.cache\Windows\SFX\PosFeedback4_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\PosFeedback\PosFeedback4		521980
+	303173552	PosFeedback1	Y:\Downloads\git\zyinmatrix\Rhythm Games\WwiseRhythmGame-main\RhythmGameTemplate_WwiseProject\.cache\Windows\SFX\PosFeedback1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\PosFeedback\PosFeedback1		316444
+	523810412	QWOPRevolution	Y:\Downloads\git\zyinmatrix\Rhythm Games\WwiseRhythmGame-main\RhythmGameTemplate_WwiseProject\.cache\Windows\SFX\QWOPRevolution_696A9007.wem		\Interactive Music Hierarchy\Default Work Unit\RhythmGameTemplateMusic\QWOPRevolution		686992
+	605398013	PosFeedback2	Y:\Downloads\git\zyinmatrix\Rhythm Games\WwiseRhythmGame-main\RhythmGameTemplate_WwiseProject\.cache\Windows\SFX\PosFeedback2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\PosFeedback\PosFeedback2		349272
+	868835711	NegFeedback	Y:\Downloads\git\zyinmatrix\Rhythm Games\WwiseRhythmGame-main\RhythmGameTemplate_WwiseProject\.cache\Windows\SFX\NegFeedback_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\NegFeedback\NegFeedback		65900
+	1068532503	NegFeedback2	Y:\Downloads\git\zyinmatrix\Rhythm Games\WwiseRhythmGame-main\RhythmGameTemplate_WwiseProject\.cache\Windows\SFX\NegFeedback2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\NegFeedback\NegFeedback2		64848
+

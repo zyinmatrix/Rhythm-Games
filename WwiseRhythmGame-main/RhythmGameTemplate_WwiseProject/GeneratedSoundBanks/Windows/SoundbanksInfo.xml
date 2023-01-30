@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="145">
+	<RootPaths>
+		<ProjectRoot>../../</ProjectRoot>
+		<SourceFilesRoot>../../.cache/Windows/</SourceFilesRoot>
+		<SoundBanksRoot>.</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>.</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<SoundBanks>
+		<SoundBank Id="1268211518" Type="User" Language="SFX" Hash="{F2835B71-788C-35BD-5129-7C18D04C3EC5}">
+			<ShortName>NoteHighway</ShortName>
+			<Path>NoteHighway.bnk</Path>
+			<Media>
+				<File Id="280786844" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>PosFeedback3.wav</ShortName>
+					<CachePath>SFX/PosFeedback3_10C4C929.wem</CachePath>
+				</File>
+				<File Id="298613979" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>PosFeedback4.wav</ShortName>
+					<CachePath>SFX/PosFeedback4_10C4C929.wem</CachePath>
+				</File>
+				<File Id="303173552" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>PosFeedback1.wav</ShortName>
+					<CachePath>SFX/PosFeedback1_10C4C929.wem</CachePath>
+				</File>
+				<File Id="523810412" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>QWOPRevolution.wav</ShortName>
+					<CachePath>SFX/QWOPRevolution_696A9007.wem</CachePath>
+				</File>
+				<File Id="605398013" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>PosFeedback2.wav</ShortName>
+					<CachePath>SFX/PosFeedback2_10C4C929.wem</CachePath>
+				</File>
+				<File Id="868835711" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>NegFeedback.wav</ShortName>
+					<CachePath>SFX/NegFeedback_10C4C929.wem</CachePath>
+				</File>
+				<File Id="1068532503" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>NegFeedback2.wav</ShortName>
+					<CachePath>SFX/NegFeedback2_10C4C929.wem</CachePath>
+				</File>
+			</Media>
+			<Plugins>
+				<Custom>
+					<Plugin Id="509367424" Name="Wwise Silence" LibName="Wwise Silence" LibId="6619138"/>
+				</Custom>
+			</Plugins>
+			<Events>
+				<Event Id="1658084028" Name="NegFeedback" DurationType="OneShot" DurationMin="0.33725" DurationMax="0.34272918">
+					<MediaRefs>
+						<MediaRef Id="868835711"/>
+						<MediaRef Id="1068532503"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="377537405" Name="PlayNoteHighwayMusic" DurationType="OneShot" DurationMin="53.76" DurationMax="53.76">
+					<MediaRefs>
+						<MediaRef Id="523810412"/>
+					</MediaRefs>
+					<PluginRefs>
+						<Custom>
+							<PluginRef Id="509367424"/>
+						</Custom>
+					</PluginRefs>
+				</Event>
+				<Event Id="278064396" Name="PosFeedback" DurationType="OneShot" DurationMin="1.4893959" DurationMax="2.7181458">
+					<MediaRefs>
+						<MediaRef Id="280786844"/>
+						<MediaRef Id="298613979"/>
+						<MediaRef Id="303173552"/>
+						<MediaRef Id="605398013"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3188186427" Name="StopNoteHighwayMusic" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{0F5E8094-6AFB-433B-101E-1311C2A91D7E}">
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+			<Plugins>
+				<ShareSets>
+					<Plugin Id="150724740" Name="MusicMeterSequel" LibName="Wwise Meter" LibId="8454147"/>
+					<Plugin Id="836551220" Name="LowMeter" LibName="Wwise Meter" LibId="8454147"/>
+					<Plugin Id="1008402193" Name="Low_Pass_20KHz" LibName="Wwise Parametric EQ" LibId="6881283"/>
+				</ShareSets>
+				<AudioDevices>
+					<Plugin Id="2317455096" Name="No_Output" LibName="No Output" LibId="11862023"/>
+					<Plugin Id="3859886410" Name="System" LibName="System" LibId="11403271"/>
+				</AudioDevices>
+			</Plugins>
+			<Busses>
+				<Bus Id="2886307548" Name="MusicBus">
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="150724740"/>
+						</ShareSets>
+					</PluginRefs>
+					<AuxBusRefs>
+						<AuxBusRef Id="3398478149" Name="LowFrequencies"/>
+					</AuxBusRefs>
+				</Bus>
+				<Bus Id="3803692087" Name="Master Audio Bus"/>
+			</Busses>
+			<AuxBusses>
+				<AuxBus Id="3398478149" Name="LowFrequencies">
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="836551220"/>
+							<PluginRef Id="1008402193"/>
+						</ShareSets>
+					</PluginRefs>
+				</AuxBus>
+			</AuxBusses>
+			<GameParameters>
+				<GameParameter Id="543979504" Name="MusicLevel"/>
+				<GameParameter Id="1196964411" Name="ArpOn"/>
+				<GameParameter Id="2078123699" Name="ArpMeter"/>
+				<GameParameter Id="2562106129" Name="MusicMeter"/>
+			</GameParameters>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{05AB5C07-4981-3433-DB7F-2F20B4D4C07D}</FileHash>
+</SoundBanksInfo>

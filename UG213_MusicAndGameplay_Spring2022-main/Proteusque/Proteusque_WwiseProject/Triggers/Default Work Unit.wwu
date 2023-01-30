@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{A6638A4F-793C-4301-B9A6-A13BDF83C7A4}" SchemaVersion="103">
+	<Triggers>
+		<WorkUnit Name="Default Work Unit" ID="{A6638A4F-793C-4301-B9A6-A13BDF83C7A4}" PersistMode="Standalone">
+			<ChildrenList>
+				<Trigger Name="ProteusqueTrigger1" ID="{B561F29C-4DBF-4BFC-B17D-D7B5E2EE3E08}"/>
+				<Trigger Name="OceanTrigger" ID="{B78F05F6-A7CD-405E-952E-625291403361}"/>
+			</ChildrenList>
+		</WorkUnit>
+	</Triggers>
+</WwiseDocument>

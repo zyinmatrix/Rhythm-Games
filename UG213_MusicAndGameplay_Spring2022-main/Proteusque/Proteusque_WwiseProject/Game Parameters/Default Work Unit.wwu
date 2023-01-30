@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{9D8F8961-3E9E-4FED-96E5-7F9765E4BA2E}" SchemaVersion="103">
+	<GameParameters>
+		<WorkUnit Name="Default Work Unit" ID="{9D8F8961-3E9E-4FED-96E5-7F9765E4BA2E}" PersistMode="Standalone">
+			<ChildrenList>
+				<GameParameter Name="PlayerHeight" ID="{0A9EFA1F-2601-4071-8064-673431E84428}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+						<Property Name="Max" Type="Real64" Value="30"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="PlayerMovement" ID="{18AAC761-CEAC-40D5-9F84-F28780347FDA}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+						<Property Name="Max" Type="Real64" Value="16"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="PlayerDistanceToMountain" ID="{8AFF6AEB-6A86-4CAA-9653-A9E038B4BE67}"/>
+			</ChildrenList>
+		</WorkUnit>
+	</GameParameters>
+</WwiseDocument>

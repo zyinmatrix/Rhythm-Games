@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PluginInfo Project="RhythmGameTemplate_WwiseProject" Platform="Mac" BasePlatform="Mac">
+	<Plugins>
+		<Plugin Name="Wwise Parametric EQ" ID="6881283" DLL="AkParametricEQ" StaticLib="AkParametricEQFX"/>
+		<Plugin Name="Wwise Meter" ID="8454147" DLL="AkSoundEngineDLL" StaticLib="AkMeterFX"/>
+		<Plugin Name="Wwise Gain" ID="9109507" DLL="AkGain" StaticLib="AkGainFX"/>
+		<Plugin Name="Wwise Synth One" ID="9699330" DLL="AkSynthOne" StaticLib="AkSynthOneSource"/>
+		<Plugin Name="System" ID="11403271"/>
+		<Plugin Name="No Output" ID="11862023"/>
+	</Plugins>
+</PluginInfo>

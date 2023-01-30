@@ -1,0 +1,25 @@
+Event	ID	Name			Wwise Object Path	Notes
+	3491037216	MusicGen			\Default Work Unit\MusicGen	
+
+Modulator Envelope	ID	Name			Wwise Object Path	Notes
+	955110277	Modulator Envelope (Custom)				
+
+Source plug-ins	ID	Name	Type		Wwise Object Path	Notes
+	258287902	Wwise Synth One	Wwise Synth One		\Actor-Mixer Hierarchy\Default Work Unit\Synth\Wwise Synth One	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	9978960	CMinorChords	D:\Teaching\Spring2022\2022Repo\Proteusque\Proteusque_WwiseProject\.cache\Mac\SFX\DDim_36A3CB5E.wmid		\Interactive Music Hierarchy\Default Work Unit\FragmentedMusic\CMajProgression\CMajProgression1\CMinorChords		30
+	208670922	CMajorChords	D:\Teaching\Spring2022\2022Repo\Proteusque\Proteusque_WwiseProject\.cache\Mac\SFX\FMaj_36A3CB5E.wmid		\Interactive Music Hierarchy\Default Work Unit\FragmentedMusic\CMajProgression\CMajProgression1\CMajorChords		30
+	260894954	CMinorChords	D:\Teaching\Spring2022\2022Repo\Proteusque\Proteusque_WwiseProject\.cache\Mac\SFX\FMin_36A3CB5E.wmid		\Interactive Music Hierarchy\Default Work Unit\FragmentedMusic\CMajProgression\CMajProgression1\CMinorChords		30
+	322730298	DMin_v2	D:\Teaching\Spring2022\2022Repo\Proteusque\Proteusque_WwiseProject\.cache\Mac\SFX\DMin_v2_AEFBDCCB.wmid		\Interactive Music Hierarchy\Default Work Unit\FragmentedMusic\CMajProgression\Harmony_02\DMin_v2		134
+	449101214	CMaj_v2	D:\Teaching\Spring2022\2022Repo\Proteusque\Proteusque_WwiseProject\.cache\Mac\SFX\CMaj_v2_AEFBDCCB.wmid		\Interactive Music Hierarchy\Default Work Unit\FragmentedMusic\CMajProgression\Harmony_02\CMaj_v2		134
+	453553948	CMinorChords	D:\Teaching\Spring2022\2022Repo\Proteusque\Proteusque_WwiseProject\.cache\Mac\SFX\Gmin_36A3CB5E.wmid		\Interactive Music Hierarchy\Default Work Unit\FragmentedMusic\CMajProgression\CMajProgression1\CMinorChords		30
+	459766749	CMajorChords	D:\Teaching\Spring2022\2022Repo\Proteusque\Proteusque_WwiseProject\.cache\Mac\SFX\DMin_36A3CB5E.wmid		\Interactive Music Hierarchy\Default Work Unit\FragmentedMusic\CMajProgression\CMajProgression1\CMajorChords		30
+	498075144	CMajorChords	D:\Teaching\Spring2022\2022Repo\Proteusque\Proteusque_WwiseProject\.cache\Mac\SFX\GMaj_36A3CB5E.wmid		\Interactive Music Hierarchy\Default Work Unit\FragmentedMusic\CMajProgression\CMajProgression1\CMajorChords		30
+	573552304	CMajorChords	D:\Teaching\Spring2022\2022Repo\Proteusque\Proteusque_WwiseProject\.cache\Mac\SFX\BfMaj_36A3CB5E.wmid		\Interactive Music Hierarchy\Default Work Unit\FragmentedMusic\CMajProgression\CMajProgression1\CMajorChords		30
+	639712776	CMajorChords	D:\Teaching\Spring2022\2022Repo\Proteusque\Proteusque_WwiseProject\.cache\Mac\SFX\CMin_36A3CB5E.wmid		\Interactive Music Hierarchy\Default Work Unit\FragmentedMusic\CMajProgression\CMajProgression1\CMajorChords		30
+	653924102	CMajorChords	D:\Teaching\Spring2022\2022Repo\Proteusque\Proteusque_WwiseProject\.cache\Mac\SFX\AMin_36A3CB5E.wmid		\Interactive Music Hierarchy\Default Work Unit\FragmentedMusic\CMajProgression\CMajProgression1\CMajorChords		30
+	716391512	CMajorChords	D:\Teaching\Spring2022\2022Repo\Proteusque\Proteusque_WwiseProject\.cache\Mac\SFX\EMin_36A3CB5E.wmid		\Interactive Music Hierarchy\Default Work Unit\FragmentedMusic\CMajProgression\CMajProgression1\CMajorChords		30
+	952045510	CMajorChords	D:\Teaching\Spring2022\2022Repo\Proteusque\Proteusque_WwiseProject\.cache\Mac\SFX\EFMaj_36A3CB5E.wmid		\Interactive Music Hierarchy\Default Work Unit\FragmentedMusic\CMajProgression\CMajProgression1\CMajorChords		30
+	992540928	CMajorChords	D:\Teaching\Spring2022\2022Repo\Proteusque\Proteusque_WwiseProject\.cache\Mac\SFX\CMaj_36A3CB5E.wmid		\Interactive Music Hierarchy\Default Work Unit\FragmentedMusic\CMajProgression\CMajProgression1\CMajorChords		30
+

@@ -1,0 +1,18 @@
+State Group	ID	Name			Wwise Object Path	Notes
+	1374134669	Region			\Default Work Unit\Region	
+
+State	ID	Name	State Group			Notes
+	748895195	None	Region			
+	3036078039	Purple	Region			
+	3802555985	Ocean	Region			
+	3987849186	Magenta	Region			
+	4147287986	Green	Region			
+
+Audio Bus	ID	Name			Wwise Object Path	Notes
+	2886307548	MusicBus			\Default Work Unit\Master Audio Bus\MusicBus	
+	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
+
+Audio Devices	ID	Name	Type				Notes
+	2317455096	No_Output	No Output			
+	3859886410	System	System			
+

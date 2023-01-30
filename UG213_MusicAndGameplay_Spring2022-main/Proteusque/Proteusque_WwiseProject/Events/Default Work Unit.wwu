@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{43AC50F9-5DC5-4A6C-B08F-CF796D6BD8CA}" SchemaVersion="103">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{43AC50F9-5DC5-4A6C-B08F-CF796D6BD8CA}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="StartMusic" ID="{6BE3B747-79E0-4391-8C51-864B3307BE90}">
+					<ChildrenList>
+						<Action Name="" ID="{565DC635-A51F-4220-9BA0-037D23775974}" ShortID="71472451">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="BackgroundMusic" ID="{48A05CBE-EF2F-471B-80AB-98FFCF411F39}" WorkUnitID="{3C181720-A88D-4215-BA0A-6B06F85C224B}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="StopMusic" ID="{11914D58-7060-4198-96B0-3880ED11709F}">
+					<ChildrenList>
+						<Action Name="" ID="{AF5856BB-5ABC-4FD2-B45F-7BE0DFC4F8F3}" ShortID="321687518">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="GreenMusic" ID="{79DF67F8-C3FA-4E3C-B4D5-B9C6A4695E0A}" WorkUnitID="{3C181720-A88D-4215-BA0A-6B06F85C224B}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="StartSpatialLoop1" ID="{B478333A-7379-45B4-8015-E6E11AFF7DD3}">
+					<ChildrenList>
+						<Action Name="" ID="{CD5BF6F5-827C-400A-969F-00B60F976F42}" ShortID="603759701">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="ProteusqueSpatialLoop1" ID="{06673D08-71BE-4E2A-B00D-4172BCD4B9C6}" WorkUnitID="{16B47A31-444F-4276-80A3-4BE5C936562C}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="StartSpatialLoop2" ID="{489AA2D6-A386-49DB-B24E-26316AD75E9F}">
+					<ChildrenList>
+						<Action Name="" ID="{8839D827-3184-479D-9CB1-FBD7A0A9676B}" ShortID="447013395">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="ProteusqueSpatialLoop2" ID="{79009F8D-5703-4250-89EC-75CF7A2F4F28}" WorkUnitID="{16B47A31-444F-4276-80A3-4BE5C936562C}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="StartSpatialLoop3" ID="{55B15E55-63F0-42C2-966F-FF27A38E4887}">
+					<ChildrenList>
+						<Action Name="" ID="{AFA4E12D-573B-4D66-A0BB-A9B96EF74262}" ShortID="286120039">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="ProteusqueSpatialLoop3" ID="{8A64218F-C886-47F0-90C6-64CB38E7AE21}" WorkUnitID="{16B47A31-444F-4276-80A3-4BE5C936562C}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="PlayTrigger1" ID="{D0B0A087-6924-4452-AD3D-0BB9C14990A6}">
+					<ChildrenList>
+						<Action Name="" ID="{1C97C337-D277-4C14-97AC-B09CFEF46428}" ShortID="445321555">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="35"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="ProteusqueTrigger1" ID="{B561F29C-4DBF-4BFC-B17D-D7B5E2EE3E08}" WorkUnitID="{A6638A4F-793C-4301-B9A6-A13BDF83C7A4}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="PlayOceanTrigger" ID="{744C8F1E-C4BA-46FA-987B-27026747B9EA}">
+					<ChildrenList>
+						<Action Name="" ID="{0F17EE4E-E323-4443-BFF6-4A87C976470D}" ShortID="659548181">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="35"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="OceanTrigger" ID="{B78F05F6-A7CD-405E-952E-625291403361}" WorkUnitID="{A6638A4F-793C-4301-B9A6-A13BDF83C7A4}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="MusicGen" ID="{EF9E4D97-9764-4C3E-8062-A2E187FF02F7}">
+					<ChildrenList>
+						<Action Name="" ID="{97D89685-90F1-4F21-975C-5922232040E6}" ShortID="44122018">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="CMajProgression" ID="{8F06BBE8-16E5-4BD1-8A0C-44BF27F28590}" WorkUnitID="{3C181720-A88D-4215-BA0A-6B06F85C224B}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

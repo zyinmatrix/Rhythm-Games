@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{BF0764B6-126F-430E-A4A7-18D0D0F681AB}" SchemaVersion="103">
+	<SoundcasterSessions>
+		<WorkUnit Name="Default Work Unit" ID="{BF0764B6-126F-430E-A4A7-18D0D0F681AB}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundcasterSession Name="New Soundcaster Session" ID="{A2E6DF64-3D66-4ABE-B9A0-AA22C9F9629C}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="StartSpatialLoop1" ID="{B478333A-7379-45B4-8015-E6E11AFF7DD3}" WorkUnitID="{43AC50F9-5DC5-4A6C-B08F-CF796D6BD8CA}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="StartSpatialLoop3" ID="{55B15E55-63F0-42C2-966F-FF27A38E4887}" WorkUnitID="{43AC50F9-5DC5-4A6C-B08F-CF796D6BD8CA}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="StartMusic" ID="{6BE3B747-79E0-4391-8C51-864B3307BE90}" WorkUnitID="{43AC50F9-5DC5-4A6C-B08F-CF796D6BD8CA}"/>
+							<Position X="2" Y="0"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true">
+						<RTPCValue>
+							<GameParameterRef Name="PlayerHeight" ID="{0A9EFA1F-2601-4071-8064-673431E84428}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="PlayerMovement" ID="{18AAC761-CEAC-40D5-9F84-F28780347FDA}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="PlayerDistanceToMountain" ID="{8AFF6AEB-6A86-4CAA-9653-A9E038B4BE67}"/>
+							<Value>50</Value>
+						</RTPCValue>
+					</RTPCValueList>
+					<CurrentStateList ShowAll="true">
+						<CurrentStateRef Name="None" ID="{07A40000-4028-4B51-B1FE-07D67350A62E}"/>
+					</CurrentStateList>
+					<CurrentSwitchList ShowAll="true">
+						<CurrentSwitchRef Name="GMaj" ID="{3640DE40-F98E-491C-AAC3-A8BF12BF3B1A}"/>
+						<CurrentSwitchRef Name="Green" ID="{3A598381-C7BD-4BFF-9366-934A21A43582}"/>
+					</CurrentSwitchList>
+				</SoundcasterSession>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundcasterSessions>
+</WwiseDocument>

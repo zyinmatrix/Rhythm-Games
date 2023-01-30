@@ -1,0 +1,503 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{16B47A31-444F-4276-80A3-4BE5C936562C}" SchemaVersion="103">
+	<AudioObjects>
+		<WorkUnit Name="Default Work Unit" ID="{16B47A31-444F-4276-80A3-4BE5C936562C}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="ProteusqueSpatialLoop1" ID="{06673D08-71BE-4E2A-B00D-4172BCD4B9C6}" ShortID="991954755">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+						<Property Name="BelowThresholdBehavior" Type="int16" Value="2"/>
+						<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+						<Property Name="MaxSoundPerInstance" Type="int16">
+							<ValueList>
+								<Value>3</Value>
+							</ValueList>
+						</Property>
+						<Property Name="OverLimitBehavior" Type="int16" Value="1"/>
+						<Property Name="PriorityDistanceFactor" Type="bool" Value="True"/>
+						<Property Name="PriorityDistanceOffset" Type="int16">
+							<ValueList>
+								<Value>-50</Value>
+							</ValueList>
+						</Property>
+						<Property Name="UseMaxSoundPerInstance" Type="bool">
+							<ValueList>
+								<Value>True</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="ProteusqueSpatialLoops" ID="{B63B4A9D-D4B5-4C6C-898F-B783740F98BB}" WorkUnitID="{E1CE1758-1FBA-4EEF-851A-6783860C927C}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{35439BD4-9B04-4555-926C-62366168BEFF}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="ProteusqueSpatialLoop1" ID="{03FFB63E-C19A-492E-849D-EA0DCB3F85F7}">
+							<PropertyList>
+								<Property Name="MarkerInputMode" Type="int16" Value="2"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>ProteusqueSpatialLoop1.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="451248812"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="ProteusqueSpatialLoop1" ID="{03FFB63E-C19A-492E-849D-EA0DCB3F85F7}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="ProteusqueSpatialLoop2" ID="{79009F8D-5703-4250-89EC-75CF7A2F4F28}" ShortID="277745157">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="2"/>
+						<Property Name="BelowThresholdBehavior" Type="int16" Value="2"/>
+						<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+						<Property Name="MaxSoundPerInstance" Type="int16">
+							<ValueList>
+								<Value>3</Value>
+							</ValueList>
+						</Property>
+						<Property Name="OverLimitBehavior" Type="int16" Value="1"/>
+						<Property Name="PriorityDistanceFactor" Type="bool" Value="True"/>
+						<Property Name="PriorityDistanceOffset" Type="int16">
+							<ValueList>
+								<Value>-50</Value>
+							</ValueList>
+						</Property>
+						<Property Name="UseMaxSoundPerInstance" Type="bool">
+							<ValueList>
+								<Value>True</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="ProteusqueSpatialLoops" ID="{B63B4A9D-D4B5-4C6C-898F-B783740F98BB}" WorkUnitID="{E1CE1758-1FBA-4EEF-851A-6783860C927C}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{35439BD4-9B04-4555-926C-62366168BEFF}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="ProteusqueSpatialLoop2" ID="{39BE5F24-E65A-4B2A-9D08-6A4BAF31BF1B}">
+							<Language>SFX</Language>
+							<AudioFile>ProteusqueSpatialLoop2.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="670101358"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="ProteusqueSpatialLoop2" ID="{39BE5F24-E65A-4B2A-9D08-6A4BAF31BF1B}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="ProteusqueSpatialLoop3" ID="{8A64218F-C886-47F0-90C6-64CB38E7AE21}" ShortID="609591018">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="2"/>
+						<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+						<Property Name="MaxSoundPerInstance" Type="int16">
+							<ValueList>
+								<Value>3</Value>
+							</ValueList>
+						</Property>
+						<Property Name="OverLimitBehavior" Type="int16" Value="1"/>
+						<Property Name="PriorityDistanceFactor" Type="bool" Value="True"/>
+						<Property Name="UseMaxSoundPerInstance" Type="bool">
+							<ValueList>
+								<Value>True</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="ProteusqueSpatialLoops" ID="{B63B4A9D-D4B5-4C6C-898F-B783740F98BB}" WorkUnitID="{E1CE1758-1FBA-4EEF-851A-6783860C927C}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{35439BD4-9B04-4555-926C-62366168BEFF}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="ProteusqueSpatialLoop3" ID="{E8F56176-554D-4B45-8A7F-6B3F0019CA79}">
+							<Language>SFX</Language>
+							<AudioFile>ProteusqueSpatialLoop3.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="328500420"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="ProteusqueSpatialLoop3" ID="{E8F56176-554D-4B45-8A7F-6B3F0019CA79}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<BlendContainer Name="DrumMachine" ID="{09103471-33DC-4777-9FF8-E54F72D9BE4C}" ShortID="999624782">
+					<PropertyList>
+						<Property Name="MidiKeyFilterMin" Type="int32" Value="12"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{982B6AEF-462E-44A6-B9A7-408817EB0171}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{35439BD4-9B04-4555-926C-62366168BEFF}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="Cym" ID="{7A7E34B9-5B5F-4E20-84F5-5B0F0C4E4337}" ShortID="572962107">
+							<PropertyList>
+								<Property Name="EnableMidiNoteTracking" Type="bool" Value="True"/>
+								<Property Name="MidiKeyFilterMax" Type="int32" Value="64"/>
+								<Property Name="MidiKeyFilterMin" Type="int32" Value="64"/>
+								<Property Name="MidiTrackingRootNote" Type="int32" Value="64"/>
+								<Property Name="OverrideMidiNoteTracking" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{982B6AEF-462E-44A6-B9A7-408817EB0171}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{35439BD4-9B04-4555-926C-62366168BEFF}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Cym" ID="{88DEF082-95F3-4F67-9FEE-7981BD1D2C09}">
+									<Language>SFX</Language>
+									<AudioFile>Cym.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="635728387"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="Cym" ID="{88DEF082-95F3-4F67-9FEE-7981BD1D2C09}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Kick" ID="{B8F21A0F-8262-4438-A66E-1A6202ABF13E}" ShortID="495048408">
+							<PropertyList>
+								<Property Name="EnableMidiNoteTracking" Type="bool" Value="True"/>
+								<Property Name="MidiKeyFilterMax" Type="int32" Value="60"/>
+								<Property Name="MidiKeyFilterMin" Type="int32" Value="60"/>
+								<Property Name="OverrideMidiNoteTracking" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{982B6AEF-462E-44A6-B9A7-408817EB0171}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{35439BD4-9B04-4555-926C-62366168BEFF}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Kick" ID="{1FD1462E-DD81-492A-A130-61CB692086AB}">
+									<Language>SFX</Language>
+									<AudioFile>Kick.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="1052839573"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="Kick" ID="{1FD1462E-DD81-492A-A130-61CB692086AB}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Snare" ID="{14BAC6B9-A284-4C06-BF31-CE76F5A992E0}" ShortID="807825821">
+							<PropertyList>
+								<Property Name="EnableMidiNoteTracking" Type="bool" Value="True"/>
+								<Property Name="MidiKeyFilterMax" Type="int32" Value="62"/>
+								<Property Name="MidiKeyFilterMin" Type="int32" Value="62"/>
+								<Property Name="MidiTrackingRootNote" Type="int32" Value="62"/>
+								<Property Name="OverrideMidiNoteTracking" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{982B6AEF-462E-44A6-B9A7-408817EB0171}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{35439BD4-9B04-4555-926C-62366168BEFF}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Snare" ID="{C406DF07-8D93-4C14-A281-BB8149485089}">
+									<Language>SFX</Language>
+									<AudioFile>Snare.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="450207730"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="Snare" ID="{C406DF07-8D93-4C14-A281-BB8149485089}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+					<ObjectLists/>
+				</BlendContainer>
+				<Sound Name="Synth" ID="{805AC1D4-709E-4AEF-85F5-773D7EB6FD2F}" ShortID="360616412">
+					<PropertyList>
+						<Property Name="MidiBreakOnNoteOff" Type="bool" Value="True"/>
+						<Property Name="MidiTrackingRootNote" Type="int32" Value="72"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{982B6AEF-462E-44A6-B9A7-408817EB0171}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{35439BD4-9B04-4555-926C-62366168BEFF}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<SourcePlugin Name="Wwise Synth One" ID="{5D4CA19E-E43F-4244-9E29-73C65F6614CB}" ShortID="258287902" PluginName="Wwise Synth One" CompanyID="0" PluginID="148">
+							<PropertyList>
+								<Property Name="BaseFrequency" Type="Real32" Value="440"/>
+								<Property Name="FrequencyMode" Type="int32" Value="1"/>
+								<Property Name="Osc1Transpose" Type="int32" Value="-1200"/>
+								<Property Name="Osc1Waveform" Type="int32" Value="1"/>
+								<Property Name="Osc2Transpose" Type="int32" Value="-1200"/>
+								<Property Name="OutputLevel" Type="Real32">
+									<RTPCList>
+										<RTPC Name="" ID="{36F6889A-10ED-434A-B7E4-0C22E9E158B7}" ShortID="752456258">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<Custom>
+														<ModulatorEnvelope Name="Modulator Envelope (Custom)" ID="{0102D8DE-2AB3-42E1-99FD-D44C1F16E3E2}" ShortID="955110277">
+															<PropertyList>
+																<Property Name="EnvelopeAttackCurve" Type="Real64" Value="83"/>
+																<Property Name="EnvelopeAttackTime" Type="Real64" Value="0.516"/>
+																<Property Name="EnvelopeDecayTime" Type="Real64" Value="0.521"/>
+																<Property Name="EnvelopeSustainLevel" Type="Real64" Value="42.1"/>
+																<Property Name="ModulatorScope" Type="int32" Value="0"/>
+															</PropertyList>
+														</ModulatorEnvelope>
+													</Custom>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{D7F3EE7B-5577-4A34-BEEC-2DD991A835A6}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-96</YPos>
+														<Flags>21</Flags>
+													</Point>
+													<Point>
+														<XPos>1</XPos>
+														<YPos>0</YPos>
+														<Flags>53</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+							</PropertyList>
+							<Language>SFX</Language>
+						</SourcePlugin>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="Wwise Synth One" ID="{5D4CA19E-E43F-4244-9E29-73C65F6614CB}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<BlendContainer Name="DayNightMusic" ID="{B42F6F2B-D89A-4BEA-B7FA-AEEED93F6656}" ShortID="65096211">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{982B6AEF-462E-44A6-B9A7-408817EB0171}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{35439BD4-9B04-4555-926C-62366168BEFF}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="ProteusqueSpatialLoop1" ID="{A3F3994E-E1E3-4C63-AD31-8147D5790562}" ShortID="292268146">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+								<Property Name="BelowThresholdBehavior" Type="int16" Value="2"/>
+								<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="MaxSoundPerInstance" Type="int16">
+									<ValueList>
+										<Value>3</Value>
+									</ValueList>
+								</Property>
+								<Property Name="OverLimitBehavior" Type="int16" Value="1"/>
+								<Property Name="PriorityDistanceFactor" Type="bool" Value="True"/>
+								<Property Name="PriorityDistanceOffset" Type="int16">
+									<ValueList>
+										<Value>-50</Value>
+									</ValueList>
+								</Property>
+								<Property Name="UseMaxSoundPerInstance" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="ProteusqueSpatialLoops" ID="{B63B4A9D-D4B5-4C6C-898F-B783740F98BB}" WorkUnitID="{E1CE1758-1FBA-4EEF-851A-6783860C927C}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{35439BD4-9B04-4555-926C-62366168BEFF}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="ProteusqueSpatialLoop1" ID="{FFA6687D-AD8C-4260-A6DF-738394A1498D}">
+									<Language>SFX</Language>
+									<AudioFile>ProteusqueSpatialLoop1.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="336194642"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="ProteusqueSpatialLoop1" ID="{FFA6687D-AD8C-4260-A6DF-738394A1498D}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="ProteusqueSpatialLoop2" ID="{8EB57C80-3A68-425E-89B1-9C6C3DD17124}" ShortID="868402093">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+								<Property Name="BelowThresholdBehavior" Type="int16" Value="2"/>
+								<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="MaxSoundPerInstance" Type="int16">
+									<ValueList>
+										<Value>3</Value>
+									</ValueList>
+								</Property>
+								<Property Name="OverLimitBehavior" Type="int16" Value="1"/>
+								<Property Name="PriorityDistanceFactor" Type="bool" Value="True"/>
+								<Property Name="PriorityDistanceOffset" Type="int16">
+									<ValueList>
+										<Value>-50</Value>
+									</ValueList>
+								</Property>
+								<Property Name="UseMaxSoundPerInstance" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="ProteusqueSpatialLoops" ID="{B63B4A9D-D4B5-4C6C-898F-B783740F98BB}" WorkUnitID="{E1CE1758-1FBA-4EEF-851A-6783860C927C}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{35439BD4-9B04-4555-926C-62366168BEFF}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="ProteusqueSpatialLoop2" ID="{62A0982F-9065-4CB0-9C56-AB9C16DEFCBD}">
+									<Language>SFX</Language>
+									<AudioFile>ProteusqueSpatialLoop2.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="515442571"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="ProteusqueSpatialLoop2" ID="{62A0982F-9065-4CB0-9C56-AB9C16DEFCBD}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+					<ObjectLists/>
+					<BlendTrackList>
+						<BlendTrack Name="New Blend Track" ID="{85D19310-FD00-4A73-883D-6B67AAE701B4}" ShortID="496837831">
+							<PropertyList>
+								<Property Name="EnableCrossFading" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="LayerCrossFadeControlInput">
+									<ObjectRef Name="PlayerHeight" ID="{0A9EFA1F-2601-4071-8064-673431E84428}" WorkUnitID="{9D8F8961-3E9E-4FED-96E5-7F9765E4BA2E}"/>
+								</Reference>
+							</ReferenceList>
+							<BlendTrackAssocList>
+								<BlendTrackAssoc>
+									<ItemRef Name="ProteusqueSpatialLoop1" ID="{A3F3994E-E1E3-4C63-AD31-8147D5790562}"/>
+									<CrossfadingInfo>
+										<LeftEdgePos>0</LeftEdgePos>
+										<LeftFadingMode>Automatic</LeftFadingMode>
+										<RightEdgePos>22.5307130381803</RightEdgePos>
+										<RightFadingMode>Automatic</RightFadingMode>
+									</CrossfadingInfo>
+								</BlendTrackAssoc>
+							</BlendTrackAssocList>
+						</BlendTrack>
+					</BlendTrackList>
+				</BlendContainer>
+				<Sound Name="ChillIslandBAnd" ID="{7523C567-EEB4-454D-BCBB-29E1174BD727}" ShortID="4957960">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="2"/>
+						<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+						<Property Name="MaxSoundPerInstance" Type="int16">
+							<ValueList>
+								<Value>3</Value>
+							</ValueList>
+						</Property>
+						<Property Name="OverLimitBehavior" Type="int16" Value="1"/>
+						<Property Name="PriorityDistanceFactor" Type="bool" Value="True"/>
+						<Property Name="UseMaxSoundPerInstance" Type="bool">
+							<ValueList>
+								<Value>True</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="ProteusqueSpatialLoops" ID="{B63B4A9D-D4B5-4C6C-898F-B783740F98BB}" WorkUnitID="{E1CE1758-1FBA-4EEF-851A-6783860C927C}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{35439BD4-9B04-4555-926C-62366168BEFF}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="ProteusqueStems Area1Drums_Fragment1" ID="{A0504B65-812A-488D-B1D9-93BD55541545}">
+							<Language>SFX</Language>
+							<AudioFile>ProteusqueStems Area1Drums_Fragment1.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="454512753"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="ProteusqueStems Area1Drums_Fragment1" ID="{A0504B65-812A-488D-B1D9-93BD55541545}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

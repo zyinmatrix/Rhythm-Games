@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="12" SoundbankVersion="140">
+	<RootPaths>
+		<ProjectRoot>D:\Teaching\Spring2022\2022Repo\Proteusque\Proteusque_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>D:\Teaching\Spring2022\2022Repo\Proteusque\Proteusque_WwiseProject\.cache\Mac\</SourceFilesRoot>
+		<SoundBanksRoot>D:\Teaching\Spring2022\2022Repo\Proteusque\Proteusque_WwiseProject\GeneratedSoundBanks\Mac\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>D:\Teaching\Spring2022\2022Repo\Proteusque\Proteusque_WwiseProject\GeneratedSoundBanks\Mac</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Language="SFX" Hash="1352908414">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="2416386526" Language="SFX" Hash="2333034314">
+			<ObjectPath>\SoundBanks\Default Work Unit\Proteusque</ObjectPath>
+			<ShortName>Proteusque</ShortName>
+			<Path>Proteusque.bnk</Path>
+			<IncludedEvents>
+				<Event Id="2383811509" Name="PlayOceanTrigger" ObjectPath="\Events\Default Work Unit\PlayOceanTrigger" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0.">
+					<ActionTrigger>
+						<ActionTriggerEntry Id="2252679871" Name="OceanTrigger" ObjectPath="\Triggers\Default Work Unit\OceanTrigger"/>
+					</ActionTrigger>
+				</Event>
+				<Event Id="2018227834" Name="PlayTrigger1" ObjectPath="\Events\Default Work Unit\PlayTrigger1" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0.">
+					<ActionTrigger>
+						<ActionTriggerEntry Id="4193390955" Name="ProteusqueTrigger1" ObjectPath="\Triggers\Default Work Unit\ProteusqueTrigger1"/>
+					</ActionTrigger>
+				</Event>
+				<Event Id="3827058668" Name="StartMusic" ObjectPath="\Events\Default Work Unit\StartMusic" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="46683379" Language="SFX">
+							<ShortName>ProteusqueStems Area2Drums.wav</ShortName>
+							<Path>SFX\ProteusqueStems Area2Drums_9EDFC787.wem</Path>
+						</File>
+						<File Id="55090083" Language="SFX">
+							<ShortName>DrumMIDI.mid</ShortName>
+							<Path>SFX\DrumMIDI_379067B7.wmid</Path>
+						</File>
+						<File Id="226872478" Language="SFX">
+							<ShortName>ProteusqueStems Area3-1.wav</ShortName>
+							<Path>SFX\ProteusqueStems Area3-1_9EDFC787.wem</Path>
+						</File>
+						<File Id="302512911" Language="SFX">
+							<ShortName>ProteusqueStems Area1Drums_Fragment3.wav</ShortName>
+							<Path>SFX\ProteusqueStems Area1Drums_Fragment3_9EDFC787.wem</Path>
+						</File>
+						<File Id="410623099" Language="SFX">
+							<ShortName>ProteusqueStems Area1Melody.wav</ShortName>
+							<Path>SFX\ProteusqueStems Area1Melody_9EDFC787.wem</Path>
+						</File>
+						<File Id="450207730" Language="SFX">
+							<ShortName>Snare.wav</ShortName>
+							<Path>SFX\Snare_10C4C929.wem</Path>
+						</File>
+						<File Id="454512753" Language="SFX">
+							<ShortName>ProteusqueStems Area1Drums_Fragment1.wav</ShortName>
+							<Path>SFX\ProteusqueStems Area1Drums_Fragment1_9EDFC787.wem</Path>
+						</File>
+						<File Id="502943863" Language="SFX">
+							<ShortName>ProteusqueStems Area1Drums_Fragment2.wav</ShortName>
+							<Path>SFX\ProteusqueStems Area1Drums_Fragment2_9EDFC787.wem</Path>
+						</File>
+						<File Id="516131857" Language="SFX">
+							<ShortName>ProteusqueStems Area2Harmony.wav</ShortName>
+							<Path>SFX\ProteusqueStems Area2Harmony_9EDFC787.wem</Path>
+						</File>
+						<File Id="635728387" Language="SFX">
+							<ShortName>Cym.wav</ShortName>
+							<Path>SFX\Cym_10C4C929.wem</Path>
+						</File>
+						<File Id="740337913" Language="SFX">
+							<ShortName>OceanMusic.wav</ShortName>
+							<Path>SFX\OceanMusic_9EDFC787.wem</Path>
+						</File>
+						<File Id="851501314" Language="SFX">
+							<ShortName>Area2BassMIDI.mid</ShortName>
+							<Path>SFX\Area2BassMIDI_AEF869C3.wmid</Path>
+						</File>
+						<File Id="934498183" Language="SFX">
+							<ShortName>ProteusqueStinger1.wav</ShortName>
+							<Path>SFX\ProteusqueStinger1_D79FB2B7.wem</Path>
+						</File>
+						<File Id="949749248" Language="SFX">
+							<ShortName>ProteusqueStems Area2Melody.wav</ShortName>
+							<Path>SFX\ProteusqueStems Area2Melody_9EDFC787.wem</Path>
+						</File>
+						<File Id="967933788" Language="SFX">
+							<ShortName>ProteusqueStems Area1Harmony.wav</ShortName>
+							<Path>SFX\ProteusqueStems Area1Harmony_9EDFC787.wem</Path>
+						</File>
+						<File Id="1052839573" Language="SFX">
+							<ShortName>Kick.wav</ShortName>
+							<Path>SFX\Kick_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<SwitchContainers>
+						<SwitchContainer SwitchValue="{4F0CCC5F-3897-4C7B-B1F9-C016313DA5B8}">
+							<Media>
+								<File Id="302512911"/>
+								<File Id="410623099"/>
+								<File Id="454512753"/>
+								<File Id="502943863"/>
+								<File Id="967933788"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{3F88B34E-4FAE-412A-A527-8078BC26C379}">
+							<Media>
+								<File Id="46683379"/>
+								<File Id="55090083"/>
+								<File Id="450207730"/>
+								<File Id="516131857"/>
+								<File Id="635728387"/>
+								<File Id="851501314"/>
+								<File Id="949749248"/>
+								<File Id="1052839573"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{D46F03EA-FB71-4EBA-BA95-562A1CA682F5}">
+							<Media>
+								<File Id="226872478"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{95E93439-7A82-470D-8667-0BDE7F9EC923}">
+							<Media>
+								<File Id="740337913"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{07A40000-4028-4B51-B1FE-07D67350A62E}">
+							<Media>
+								<File Id="226872478"/>
+							</Media>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+				<Event Id="3415295600" Name="StartSpatialLoop1" ObjectPath="\Events\Default Work Unit\StartSpatialLoop1" MaxAttenuation="30." DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="451248812" Language="SFX">
+							<ShortName>ProteusqueSpatialLoop1.wav</ShortName>
+							<Path>SFX\ProteusqueSpatialLoop1_FE9A7B25.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3415295603" Name="StartSpatialLoop2" ObjectPath="\Events\Default Work Unit\StartSpatialLoop2" MaxAttenuation="30." DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="670101358" Language="SFX">
+							<ShortName>ProteusqueSpatialLoop2.wav</ShortName>
+							<Path>SFX\ProteusqueSpatialLoop2_9EDFC787.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3415295602" Name="StartSpatialLoop3" ObjectPath="\Events\Default Work Unit\StartSpatialLoop3" MaxAttenuation="30." DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="328500420" Language="SFX">
+							<ShortName>ProteusqueSpatialLoop3.wav</ShortName>
+							<Path>SFX\ProteusqueSpatialLoop3_9EDFC787.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1917263390" Name="StopMusic" ObjectPath="\Events\Default Work Unit\StopMusic" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+			</IncludedEvents>
+			<GameParameters>
+				<GameParameter Id="2243460727" Name="PlayerHeight" ObjectPath="\Game Parameters\Default Work Unit\PlayerHeight"/>
+			</GameParameters>
+			<StateGroups>
+				<StateGroup Id="1374134669" Name="Region" ObjectPath="\States\Default Work Unit\Region" GUID="{5CDB31AD-2841-4B33-B0A1-F778FA538AAE}">
+					<States>
+						<State Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\Region\None" GUID="{07A40000-4028-4B51-B1FE-07D67350A62E}"/>
+						<State Id="4147287986" Name="Green" ObjectPath="\States\Default Work Unit\Region\Green" GUID="{4F0CCC5F-3897-4C7B-B1F9-C016313DA5B8}"/>
+						<State Id="3987849186" Name="Magenta" ObjectPath="\States\Default Work Unit\Region\Magenta" GUID="{3F88B34E-4FAE-412A-A527-8078BC26C379}"/>
+						<State Id="3036078039" Name="Purple" ObjectPath="\States\Default Work Unit\Region\Purple" GUID="{D46F03EA-FB71-4EBA-BA95-562A1CA682F5}"/>
+						<State Id="3802555985" Name="Ocean" ObjectPath="\States\Default Work Unit\Region\Ocean" GUID="{95E93439-7A82-470D-8667-0BDE7F9EC923}"/>
+					</States>
+				</StateGroup>
+			</StateGroups>
+			<Triggers>
+				<Trigger Id="2252679871" Name="OceanTrigger" ObjectPath="\Triggers\Default Work Unit\OceanTrigger"/>
+				<Trigger Id="4193390955" Name="ProteusqueTrigger1" ObjectPath="\Triggers\Default Work Unit\ProteusqueTrigger1"/>
+			</Triggers>
+		</SoundBank>
+		<SoundBank Id="2767453949" Language="SFX" Hash="344349543">
+			<ObjectPath>\SoundBanks\Default Work Unit\ProceduralMusic</ObjectPath>
+			<ShortName>ProceduralMusic</ShortName>
+			<Path>ProceduralMusic.bnk</Path>
+			<IncludedEvents>
+				<Event Id="3491037216" Name="MusicGen" ObjectPath="\Events\Default Work Unit\MusicGen" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="9978960" Language="SFX">
+							<ShortName>DDim.mid</ShortName>
+							<Path>SFX\DDim_36A3CB5E.wmid</Path>
+						</File>
+						<File Id="208670922" Language="SFX">
+							<ShortName>FMaj.mid</ShortName>
+							<Path>SFX\FMaj_36A3CB5E.wmid</Path>
+						</File>
+						<File Id="260894954" Language="SFX">
+							<ShortName>FMin.mid</ShortName>
+							<Path>SFX\FMin_36A3CB5E.wmid</Path>
+						</File>
+						<File Id="322730298" Language="SFX">
+							<ShortName>DMin_v2.mid</ShortName>
+							<Path>SFX\DMin_v2_AEFBDCCB.wmid</Path>
+						</File>
+						<File Id="449101214" Language="SFX">
+							<ShortName>CMaj_v2.mid</ShortName>
+							<Path>SFX\CMaj_v2_AEFBDCCB.wmid</Path>
+						</File>
+						<File Id="453553948" Language="SFX">
+							<ShortName>Gmin.mid</ShortName>
+							<Path>SFX\Gmin_36A3CB5E.wmid</Path>
+						</File>
+						<File Id="459766749" Language="SFX">
+							<ShortName>DMin.mid</ShortName>
+							<Path>SFX\DMin_36A3CB5E.wmid</Path>
+						</File>
+						<File Id="498075144" Language="SFX">
+							<ShortName>GMaj.mid</ShortName>
+							<Path>SFX\GMaj_36A3CB5E.wmid</Path>
+						</File>
+						<File Id="573552304" Language="SFX">
+							<ShortName>BfMaj.mid</ShortName>
+							<Path>SFX\BfMaj_36A3CB5E.wmid</Path>
+						</File>
+						<File Id="639712776" Language="SFX">
+							<ShortName>CMin.mid</ShortName>
+							<Path>SFX\CMin_36A3CB5E.wmid</Path>
+						</File>
+						<File Id="653924102" Language="SFX">
+							<ShortName>AMin.mid</ShortName>
+							<Path>SFX\AMin_36A3CB5E.wmid</Path>
+						</File>
+						<File Id="716391512" Language="SFX">
+							<ShortName>EMin.mid</ShortName>
+							<Path>SFX\EMin_36A3CB5E.wmid</Path>
+						</File>
+						<File Id="952045510" Language="SFX">
+							<ShortName>EFMaj.mid</ShortName>
+							<Path>SFX\EFMaj_36A3CB5E.wmid</Path>
+						</File>
+						<File Id="992540928" Language="SFX">
+							<ShortName>CMaj.mid</ShortName>
+							<Path>SFX\CMaj_36A3CB5E.wmid</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+			</IncludedEvents>
+			<SwitchGroups>
+				<SwitchGroup Id="786398669" Name="ChordSwitch" ObjectPath="\Switches\Default Work Unit\ChordSwitch" GUID="{561877E3-95BD-4500-93BF-77834339D43A}">
+					<Switches>
+						<Switch Id="46227044" Name="CMaj" ObjectPath="\Switches\Default Work Unit\ChordSwitch\CMaj" GUID="{F0CCFBF5-F712-427F-B7A5-87E85B887267}"/>
+						<Switch Id="1911108697" Name="DMin" ObjectPath="\Switches\Default Work Unit\ChordSwitch\DMin" GUID="{10CEFFDD-D2CE-4BC0-B735-B83B992A016D}"/>
+						<Switch Id="2327242131" Name="FMaj" ObjectPath="\Switches\Default Work Unit\ChordSwitch\FMaj" GUID="{84ECD9FB-4A09-4BD3-98E3-9B1F9DD4DB51}"/>
+						<Switch Id="1440006128" Name="GMaj" ObjectPath="\Switches\Default Work Unit\ChordSwitch\GMaj" GUID="{3640DE40-F98E-491C-AAC3-A8BF12BF3B1A}"/>
+						<Switch Id="493491582" Name="EMin" ObjectPath="\Switches\Default Work Unit\ChordSwitch\EMin" GUID="{6CB64E92-D811-4090-9CE3-C55D26C1314E}"/>
+						<Switch Id="3621544922" Name="Amin" ObjectPath="\Switches\Default Work Unit\ChordSwitch\Amin" GUID="{AC528A10-B37A-4A28-B825-E104967BB4C2}"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

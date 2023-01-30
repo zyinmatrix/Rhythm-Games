@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{AEEAE56D-4EC1-48EB-818A-DBB4695CE2E1}" SchemaVersion="103">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{AEEAE56D-4EC1-48EB-818A-DBB4695CE2E1}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="PlayNoteHighwayMusic" ID="{0130192A-8663-463B-BA15-34143CE01472}">
+					<ChildrenList>
+						<Action Name="" ID="{A0C42F4E-5EB2-46B0-9A03-3FFE486BB218}" ShortID="1018515844">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="RhythmGameTemplateMusic" ID="{F3A552B4-9C9F-4071-B454-D9F7BB887472}" WorkUnitID="{5142D0E9-31DD-4B24-9FFE-8C6ACB1EFCDB}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="StopNoteHighwayMusic" ID="{6525028A-58B1-41EF-93F0-49886F0FD62F}">
+					<ChildrenList>
+						<Action Name="" ID="{F8DC079E-9BDD-4264-A19D-16BFA32243B2}" ShortID="638676778">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="RhythmGameTemplateMusic" ID="{F3A552B4-9C9F-4071-B454-D9F7BB887472}" WorkUnitID="{5142D0E9-31DD-4B24-9FFE-8C6ACB1EFCDB}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="PosFeedback" ID="{4235F9A4-DD57-4DB7-B205-163EEFF7DDFA}">
+					<ChildrenList>
+						<Action Name="" ID="{B6882078-EA28-46EC-9C71-66D8F2D104EC}" ShortID="371904715">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="PosFeedback" ID="{EFDE47BE-B28C-45DD-BA6A-E98167B657E8}" WorkUnitID="{B553D9F5-1E89-4FB4-8FC5-1BC741D530C4}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="NegFeedback" ID="{28A174BC-BB15-4995-A108-71949436C01E}">
+					<ChildrenList>
+						<Action Name="" ID="{D5E45B09-942C-4E87-B3A8-B4BFCCA2669B}" ShortID="67100981">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="NegFeedback" ID="{0208723B-73F4-403F-B841-1B7FFE8B95B0}" WorkUnitID="{B553D9F5-1E89-4FB4-8FC5-1BC741D530C4}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>
