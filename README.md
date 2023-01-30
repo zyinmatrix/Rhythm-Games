@@ -1,2 +1,2 @@
 # RhythmGameDesign
- A simple rhythm game build with Unity & Wwise
+ A simple rhythm game created with Unity & Wwise.
