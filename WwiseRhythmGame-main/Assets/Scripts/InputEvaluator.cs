@@ -31,7 +31,7 @@ public class InputEvaluator : MonoBehaviour
     public NoteHighwayWwiseSync wwiseSync;
 
     //visual feedback in the form of particles
-    public GameObject goodParticles;
+    public GameObject perfectParticles, goodParticles, okParticles;
     public GameObject badParticles;
 
     //different colors for particles and feedback text;
@@ -46,7 +46,7 @@ public class InputEvaluator : MonoBehaviour
     private bool showingWarning = false;
     private bool isLargeWarning = false;
     private float warningTimer = 0.0f;
-    private float scaleTimer = 0.5f;
+    private float scaleTimer = 0.36f;
 
     void Update()
     {
@@ -132,12 +132,12 @@ public class InputEvaluator : MonoBehaviour
         if(showingWarning)
         {
             showingWarning = false;
-            warningTimer = 2;
+            warningTimer = 2.1f;
         }
 
         if(warningTimer > 0)
         {
-            warningText.text = "YOU HIT a SPACESHIP!";
+            warningText.text = "YOU HIT A SPACESHIP!";
             warningText.color = bombColor;
             warningTimer -= Time.deltaTime;
         }
@@ -150,7 +150,7 @@ public class InputEvaluator : MonoBehaviour
         if(scaleTimer <= 0)
         {
             isLargeWarning = !isLargeWarning;
-            scaleTimer = 0.3f;
+            scaleTimer = 0.36f;
             if(isLargeWarning) warningText.fontSize = 40;
             else warningText.fontSize = 30;
         }
@@ -162,7 +162,7 @@ public class InputEvaluator : MonoBehaviour
         GameObject newParticles;
         if(gem.isBomb){
             if(gem.gemCueState != FallingGem.CueState.Late){
-                gameScore -= 2;
+                gameScore -= 6;
                 Debug.Log("Bomb!");
                 // feedbackText.text = "YOU HIT\na SPACESHIP!";
                 // feedbackText.color = bombColor;
@@ -189,7 +189,7 @@ public class InputEvaluator : MonoBehaviour
                 Destroy(gem.gameObject);
 
                 //deploy particles
-                newParticles = Instantiate(goodParticles, gem.transform.position, Quaternion.identity);
+                newParticles = Instantiate(okParticles, gem.transform.position, Quaternion.identity);
                 var main = newParticles.GetComponent<ParticleSystem>().main;
                 // main.startColor = okColor;
                 main.startColor = gem.gemColor;
@@ -197,7 +197,7 @@ public class InputEvaluator : MonoBehaviour
 
                 break;
             case FallingGem.CueState.Good:
-                gameScore += 2;
+                gameScore += 3;
                 Debug.Log("Good!");
                 feedbackText.text = "Good!";
                 // feedbackText.color = goodColor;
@@ -213,14 +213,14 @@ public class InputEvaluator : MonoBehaviour
 
                 break;
             case FallingGem.CueState.Perfect:
-                gameScore += 3;
+                gameScore += 5;
                 Debug.Log("Perfect!");
                 feedbackText.text = "Perfect!";
                 // feedbackText.color = perfectColor;
                 feedbackText.color = gem.gemColor;
                 Destroy(gem.gameObject);
 
-                newParticles = Instantiate(goodParticles, gem.transform.position, Quaternion.identity);
+                newParticles = Instantiate(perfectParticles, gem.transform.position, Quaternion.identity);
                 main = newParticles.GetComponent<ParticleSystem>().main;
                 // main.startColor = perfectColor;
                 main.startColor = gem.gemColor;
