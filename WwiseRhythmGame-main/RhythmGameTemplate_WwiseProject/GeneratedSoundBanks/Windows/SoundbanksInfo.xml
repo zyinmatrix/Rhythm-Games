@@ -9,7 +9,7 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="1268211518" Type="User" Language="SFX" Hash="{F2835B71-788C-35BD-5129-7C18D04C3EC5}">
+		<SoundBank Id="1268211518" Type="User" Language="SFX" Hash="{2766AD8D-0B40-3BD0-1293-823038C8CD1F}">
 			<ShortName>NoteHighway</ShortName>
 			<Path>NoteHighway.bnk</Path>
 			<Media>
@@ -120,5 +120,5 @@
 			</GameParameters>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{05AB5C07-4981-3433-DB7F-2F20B4D4C07D}</FileHash>
+	<FileHash>{7E932C48-2AC7-A658-09AB-B1C48F94F98E}</FileHash>
 </SoundBanksInfo>

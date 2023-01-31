@@ -10972,22 +10972,22 @@ MonoBehaviour:
   fallingBombQ:
     playerInput: RhythmQ
     cueStartLocation: {fileID: 938599953}
-    cuePrefab: {fileID: 5037595431955545774, guid: 89ea23167c3ce44a09fa67131bb4f5c7,
+    cuePrefab: {fileID: 5037595431955545774, guid: 854105f0a1c5142fb9afa5f9c76c5a95,
       type: 3}
   fallingBombW:
     playerInput: RhythmW
     cueStartLocation: {fileID: 464838499}
-    cuePrefab: {fileID: 5037595431955545774, guid: 89ea23167c3ce44a09fa67131bb4f5c7,
+    cuePrefab: {fileID: 5037595431955545774, guid: 854105f0a1c5142fb9afa5f9c76c5a95,
       type: 3}
   fallingBombO:
     playerInput: RhythmO
     cueStartLocation: {fileID: 289311527}
-    cuePrefab: {fileID: 5037595431955545774, guid: 89ea23167c3ce44a09fa67131bb4f5c7,
+    cuePrefab: {fileID: 5037595431955545774, guid: 854105f0a1c5142fb9afa5f9c76c5a95,
       type: 3}
   fallingBombP:
     playerInput: RhythmP
     cueStartLocation: {fileID: 1577705857}
-    cuePrefab: {fileID: 5037595431955545774, guid: 89ea23167c3ce44a09fa67131bb4f5c7,
+    cuePrefab: {fileID: 5037595431955545774, guid: 854105f0a1c5142fb9afa5f9c76c5a95,
       type: 3}
   wwiseSync: {fileID: 456425307}
 --- !u!4 &892455774
